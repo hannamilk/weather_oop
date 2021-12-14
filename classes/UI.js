@@ -1,8 +1,8 @@
 class UI {
     constructor() {
-        this.description = document.querySelector('#description').innerHTML = description ;
-        this.temp = document.querySelector('#temp').innerHTML = celsius + '&deg' ;
-        this.city = document.querySelector('#location').innerHTML = data.name;
+        this.description = document.querySelector('#description') ;
+        this.temp = document.querySelector('#temp');
+        this.city = document.querySelector('#location');
     }
 
     drawWeather(data){
